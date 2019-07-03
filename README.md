@@ -24,19 +24,19 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ## Webserver
 
+```shell
 const char* ssid = "ArduinoDay";
-
 const char* password = "esp826601";
+```
 
 ## IP Fixo
 
+```shell
 IPAddress ip(192, 168, 1, 12);   //mudar o ultimo digito
-
 IPAddress ip1(192, 168, 1, 1);
-
 IPAddress ip2(255, 255, 255, 0);
 
 //setup após a conexão
-
 WiFi.config(ip, ip1, ip2); 
+```
 
